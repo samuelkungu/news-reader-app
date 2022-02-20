@@ -6,8 +6,8 @@ import Maps from './components/maps/Maps';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <List />
+      {/* <Header /> */}
+      {/* <List /> */}
       <Maps />
     </div>
   );
