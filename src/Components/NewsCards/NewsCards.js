@@ -1,8 +1,12 @@
 import React from 'react'
 
-const NewsCards = () => {
+const NewsCards = ({ articles}) => {
   return (
-    <div>NewsCards</div>
+    <div>
+      {articles.map((article, i) => (
+        <NewsCard/>
+      ))}
+    </div>
   )
 }
 
