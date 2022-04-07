@@ -1,1 +1,1 @@
-### Ymir
+### News Reader App 
