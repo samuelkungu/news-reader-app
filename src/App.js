@@ -1,16 +1,13 @@
-import './App.css';
-import Header from './components/header/Header';
-import List from './components/list/List';
-import Maps from './components/maps/Maps';
+import React from 'react'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      {/* <Header /> */}
-      {/* <List /> */}
-      <Maps />
+    <div>
+        <h1>
+            Alan AI news application
+        </h1>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
