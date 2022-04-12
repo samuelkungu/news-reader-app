@@ -23,7 +23,7 @@ const App = () => {
     <div>
         <h1>
             Alan AI news application
-            <NewsCards articles={articles} />
+            <NewsCards articles={newsArticles} />
         </h1>
     </div>
   )
