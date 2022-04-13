@@ -29,3 +29,8 @@ intent('Give me the news from $(source* (.*))', (p) => {
         p.then(confirmation);
     });
 })
+
+// News by Term
+intent('what\'s up with $(term* (.*))', (p) => {
+    let NEWS_API_URL = `https://newsapi.org/v2/everything?apiKey=${API_KEY}`;
+    

@@ -4,8 +4,4 @@ Alan AI is a revolutionary speech recognition software that allows you to add vo
 
 #### Functionality
 - Can access any API dynamically, always pulls it, iterates through it.
-
- HEAD
-- Users can interact with voice and GUI.
-=======
 - Users can interact with voice and GUI.
